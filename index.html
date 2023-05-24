@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Katik (Kalkulator Matematik)</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="body">
+        <header class="header">
+            <span class="title">Katik </span>
+            <span class="subtitle">Kalkulator Matematik</span>
+        </header>
+        <main>
+            <div class="body1">
+                <h2 class="text-center">Welcome to Katik</h2>
+                <p class="text-center">Hai Sobat, Selamat datang di Katik :]</p>
+                <p class="text-center">Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+
+                <div class="btn-link">
+                    <a href="#body-luas">Persegi</a>
+                </div>
+                <div class="btn-link">
+                    <a href="#body-keliling">P. Panjang</a>
+                </div>
+
+                <div class="body-luas" id="body-luas">
+                    <h2 class="header-luas">Luas Persegi</h2>
+                    <div class="square"></div>
+                    <p class="text-center">Bujur Sangkar</p>
+                    <p class="left-margin">Rumus Luas Persegi Yaitu :</p>
+                    <h3 class="text-center">L = S x S</h3>
+                    <p class="left-margin">Di mana :</p>
+                    <p class="left-margin">L = Luas</p>
+                    <p class="left-margin">S = Sisi</p>
+
+                    <hr border="2px solid black"><br>
+                    
+                    <h1 class="text-center">Hitung Luas Persegi</h1>
+
+                    <form action="">
+                        <input name="hitung-luas" placeholder="Nilai Sisi" class="left-margin" required>
+                            <br>
+                        <button class="hitung-keliling" type="submit" name="hitung-luas">Hitung</button>
+                            <br>
+                        <button class="keliling-reset" type="submit">Reset</button>
+                    </form>
+
+
+
+
+
+
+
+                    <div>
+                        <h3>hitung luas persegi</h3>
+                        <input id="sisi-luas" name="sisi-luas" required>
+
+                        <p id="rumus-luas"></p>
+                        <p id="perhitungan-luas"></p>
+                        <p id="output-luas"></p>
+                       
+                        <button name="hitung-luas" onclick="hitungluas()">Hitung</button>
+                        <button name="reset-luas">Reset</button>
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+
+                <div class="body-keliling" id="body-keliling">
+                    <h2 class="header-keliling">Luas Persegi</h2>
+                    <div class="square"></div>
+                    <p class="text-center">Bujur Sangkar</p>
+                    <p class="left-margin">Rumus Keliling Persegi Yaitu :</p>
+                    <h3 class="text-center">K = 4 x S</h3>
+                    <p class="left-margin">Di mana :</p>
+                    <p class="left-margin">L = Luas</p>
+                    <p class="left-margin">S = Sisi</p>
+
+                    <hr border="2px solid black"><br>
+
+                    <h1 class="text-center">Hitung Keliling Persegi</h1>
+                    <form action="">
+                        <input name="hitung-keliling" placeholder="Nilai Sisi" class="left-margin" required>
+                            <br>
+                        <button class="hitung-luas" type="submit">Hitung</button>
+                            <br>
+                        <button class="luas-reset" type="submit">Reset</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>
